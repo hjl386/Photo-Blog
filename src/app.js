@@ -11,6 +11,7 @@ require('./db');
 
 const PORT = 3000;
 const app = express();
+const User = mongoose.model('User');
 const saltRounds = 10;
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -25,3 +26,9 @@ const sessionOptions = {
     saveUnitialized: true
 };
 app.use(session(sessionOptions));
+
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
+app.listen(process.env.PORT || PORT);
