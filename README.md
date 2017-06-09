@@ -1,6 +1,6 @@
-#Han Jie's Blog 
+# Han Jie's Blog 
 
-##Overview
+## Overview
 
 I recently "acquired", more like took from my brother, a Canon camera and have started to practice and get involved with photography. I have no professional background or any acadmic courses backing up my photography skills, or lack of, I and am fully self-thaught. Just like coding it started off with a lot of testing, trying different modes, different angles, etc. until I found a style I liked! I am still lacking A LOT, and my photos have no bigger significant meaning behind them, they are all simply pictures of moments I liked and wanted to 'save'. 
 
@@ -12,7 +12,7 @@ A lot of this is for myself, so I can remember the fun moments in my life, almos
 
 P.S. Let's see how consistent I will be with uploading new blogs. For the time being it will be a lot of #THROWBACK moments! 
 
-##Technical Overview 
+## Technical Overview 
 
 Heavy internal debate over using a framework REACT or building it up with Express.
 I decided to go with Express for now, BECAUSE I am more fluent at it, I wanted to review it, being that I am better with it I can mold it to fit better, and I know more supporting features, such as how to connect my database to it. Time-efficiency and proficiency.
@@ -22,7 +22,7 @@ Dependencies and Developer Dependencies can be found in my package.json. I have 
 Bootstrap - For my CSS, most likely SASS or LESS unless I use a different template. There is one that I am looking at right now but I am leaning more towards building one ground up. 
 ES6 over ES5 - I like it more, I hate prototypes, I love classes, I hate having to fully type things out, I love arrow functions. 
 
-##Data Model 
+## Data Model 
 
 The application will store Users, comments, dates, upvotes and downvotes. 
 As for each individual blog I am either going to make a new page for each one or just update one dynamic page and store the blog information as well. 
@@ -47,7 +47,7 @@ An Example Comment:
 }
 ```
 
-##Wire Frame
+## Wire Frame
 Basic Pages Include: 
 * Home Page - Includes a Register Button, Login Button, and the link to the About Page
 * About Page - Basic page of information 
@@ -55,7 +55,7 @@ Basic Pages Include:
 * Blog Page - The page with the content and where comments can be added 
 * Messaging Page - A chat function between users 
 
-##Use Cases
+## Use Cases
 1. As a non-registered user I can read the content on the about page and register as a user. 
 2. As a registered user I can view my profile and edit certain aspects of it. 
 3. As a registered user I can view blog content and leave comments on it, or contribute to an existing comment/thread. 
@@ -64,11 +64,11 @@ Basic Pages Include:
 6. As an authorized user I can edit pages, remove, add, modify contents and comments. 
 7. As an administrator I can remove every other user and change permissions of users, similarly to Drupal's setup. 
 
-##Research Topics 
+## Research Topics 
 * Integrate User Authentitcation 
     * Incorporate Passport authentication, passport-remember-me 
 * Create Plugins - to notify users about new content, aka. notifications 
 * BootStrap - LESS or SASS
 
-##[App.js File](app.js)
+## [App.js File](src/app.js)
 
